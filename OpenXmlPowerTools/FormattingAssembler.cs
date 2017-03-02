@@ -393,6 +393,7 @@ namespace OpenXmlPowerTools
                         XElement newPara = new XElement(W.p,
                             element.Attribute(PtOpenXml.FontName),
                             element.Attribute(PtOpenXml.LanguageType),
+                            element.Attribute(PtOpenXml.StyleName),
                             new XAttribute(PtOpenXml.AbstractNumId, abstractNumId),
                             newParaProps,
                             listItemRun,
